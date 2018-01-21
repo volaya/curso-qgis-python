@@ -15,7 +15,7 @@ Conocimientos de QGIS (no necesariamente QGIS3) y fundamentos de SIG. Experienci
 
 ## Comó inscribirse
 
-Si eres usuario/a de GitHub (recomendable, lo necesitaremos durante el curso), añade tu nombre en la lista de esta página. Si no, envía un email solicitando inscripción a volayaf@gmail.com
+Si eres usuario/a de GitHub (recomendable, lo necesitaremos durante el curso), añade tu nombre en la lista de [esta página](https://github.com/volaya/curso-qgis-python/wiki/Participantes). Si no, envía un email solicitando inscripción a volayaf@gmail.com
 
 ## Materiales
 
