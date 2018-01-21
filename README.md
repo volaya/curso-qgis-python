@@ -1,0 +1,1 @@
+# curso-qgis-python
