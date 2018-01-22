@@ -37,6 +37,6 @@ Si eres usuario/a de GitHub (recomendable, lo necesitaremos durante el curso), a
 
 ## Materiales
 
-Los ejercicios y documentación de este curso se encuentran en la carpeta "docs" del repositorio. 
+Los materiales de apoyo de este curso se encuentran en la carpeta "docs" del repositorio. 
 
 NOTA: Estos materiales NO SIRVEN para seguir el curso. Son piezas que utilizaremos a lo largo de este, pero el desarrollo de los temas e ideas no se incluye aquí.
