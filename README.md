@@ -9,9 +9,27 @@ Este repositorio contiene información y materiales para el curso "Programación
 - Horario: 16:00 - 20:00
 - Lugar: ???
 
+## Contenido
+
+- Python como lenguaje de scripting en QGIS.
+- La API de QGIS. Documentación.
+- QGIS 3 vs QGIS 2. Qt5 vs Qt4. Python 3 vs Python 2.
+- La consola de Python en QGIS. Creación y ejecución de scripts.
+- Expresiones. Expresiones personalizadas con Python.
+- Acciones. Acciones personalizadas con Python.
+- Hooks. Ejecución de código Python ante eventos.
+- Macros de proyecto.
+- Python para crear formularios personalizados de entrada de datos.
+- Plugins interesantes para desarrolladores.
+- Creación de algoritmos de Processing en Python.
+- Creación de plugins de QGIS en Python.
+
 ## Requisitos
 
-Conocimientos de QGIS (no necesariamente QGIS3) y fundamentos de SIG. Experiencia en programación con Python.
+- Conocimientos de QGIS (no necesariamente QGIS3) y fundamentos de SIG. 
+- Experiencia en programación con Python.
+- Estar familiarizado con git.
+- Buena parte de los materiales y textos a utilizar serán en inglés, por lo que es necesario ser capaz de leer documentación en este idioma.
 
 ## Comó inscribirse
 
@@ -20,3 +38,5 @@ Si eres usuario/a de GitHub (recomendable, lo necesitaremos durante el curso), a
 ## Materiales
 
 Los ejercicios y documentación de este curso se encuentran en la carpeta "docs" del repositorio. 
+
+NOTA: Estos materiales NO SIRVEN para seguir el curso. Son piezas que utilizaremos a lo largo de este, pero el desarrollo de los temas e ideas no se incluye aquí.
