@@ -31,6 +31,15 @@ Este repositorio contiene información y materiales para el curso "Programación
 - Estar familiarizado con git.
 - Buena parte de los materiales y textos a utilizar serán en inglés, por lo que es necesario ser capaz de leer documentación en este idioma.
 
+## Requisitos técnicos
+
+Todos los asistentes deberán traer su propio ordenador portatil, en el que deberán tener instalado:
+
+- QGIS 3
+- QtDesigner
+- git
+- Python 2 + paver (para ejecutar scripts de configuración y empaquetado cuando creemos plugins con la plantilla propuesta)
+
 ## Comó inscribirse
 
 Si eres usuario/a de GitHub (recomendable, lo necesitaremos durante el curso), añade tu nombre en la lista de [esta página](https://github.com/volaya/curso-qgis-python/wiki/Participantes). Si no, envía un email solicitando inscripción a volayaf@gmail.com
