@@ -5,7 +5,7 @@ Este repositorio contiene información y materiales para el curso "Programación
 ## El curso
 
 - Duración: 8 horas
-- Fechas(tentativas, no confirmadas): jueves 3 de mayo y viernes 4 de mayo.
+- Fechas(tentativas, no confirmadas): jueves 10 de mayo y viernes 11 de mayo.
 - Horario: 16:00 - 20:00
 - Lugar: ???
 
