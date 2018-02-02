@@ -5,9 +5,9 @@ Este repositorio contiene información y materiales para el curso "Programación
 ## El curso
 
 - Duración: 8 horas
-- Fechas(tentativas, no confirmadas): jueves 10 de mayo y viernes 11 de mayo.
+- Fechas: jueves 10 de mayo y viernes 11 de mayo.
 - Horario: 16:00 - 20:00
-- Lugar: ???
+- Lugar: Escuela Técnica Superior de Ingenieros en Topografía, Geodesia y Cartografía. Campus Sur - UPM. Calle Mercator, 2. Madrid.
 
 ## Contenido
 
