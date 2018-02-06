@@ -5,9 +5,9 @@ Este repositorio contiene información y materiales para el curso "Programación
 ## El curso
 
 - Duración: 8 horas
-- Fechas(tentativas, no confirmadas): jueves 10 de mayo y viernes 11 de mayo.
+- Fechas: jueves 10 de mayo y viernes 11 de mayo.
 - Horario: 16:00 - 20:00
-- Lugar: ???
+- Lugar: Escuela Técnica Superior de Ingenieros en Topografía, Geodesia y Cartografía. Campus Sur - UPM. Calle Mercator, 2. Madrid.
 
 ## Contenido
 
@@ -31,12 +31,21 @@ Este repositorio contiene información y materiales para el curso "Programación
 - Estar familiarizado con git.
 - Buena parte de los materiales y textos a utilizar serán en inglés, por lo que es necesario ser capaz de leer documentación en este idioma.
 
+## Requisitos técnicos
+
+Todos los asistentes deberán traer su propio ordenador portatil, en el que deberán tener instalado:
+
+- QGIS 3
+- QtDesigner
+- git
+- Python 2 + paver (para ejecutar scripts de configuración y empaquetado cuando creemos plugins con la plantilla propuesta)
+
 ## Comó inscribirse
 
 Si eres usuario/a de GitHub (recomendable, lo necesitaremos durante el curso), añade tu nombre en la lista de [esta página](https://github.com/volaya/curso-qgis-python/wiki/Participantes). Si no, envía un email solicitando inscripción a volayaf@gmail.com
 
 ## Materiales
 
-Los materiales de apoyo de este curso se encuentran en la carpeta "docs" del repositorio. 
+Los materiales de apoyo de este curso se encuentran en la carpeta "materiales" del repositorio. 
 
 NOTA: Estos materiales NO SIRVEN para seguir el curso. Son piezas que utilizaremos a lo largo de este, pero el desarrollo de los temas e ideas no se incluye aquí.
