@@ -12,9 +12,8 @@ def wikipediaSummary(name, feature, parent):
 			'exintro': True,
 			'explaintext': True,
 			}
-	url = baseurl + urllib.urlencode(params)
-	print url
-	response = urllib.urlopen(url)  
+	url = baseurl + urllib.parse.urlencode(params)
+	response = urllib.request.urlopen(url)  
 
 	if response.getcode() == 404:
 		return "No wikipedia entry was found"
@@ -24,5 +23,5 @@ def wikipediaSummary(name, feature, parent):
 				results = json.loads(sresults)
 				extract = results['query']['pages'].values()[0]['extract']
 				return extract
-			except Exception, e:
-				return "No wikipedia entry was found" 
+			except Exception:
+				return "No wikipedia entry was found"
