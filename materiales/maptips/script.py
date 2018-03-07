@@ -21,7 +21,7 @@ def wikipediaSummary(name, feature, parent):
 			try:
 				sresults = response.read()
 				results = json.loads(sresults)
-				extract = results['query']['pages'].values()[0]['extract']
+				extract = list(results['query']['pages'].values())[0]['extract']
 				return extract
 			except Exception:
 				return "No wikipedia entry was found"
