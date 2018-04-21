@@ -25,3 +25,12 @@ def wikipediaSummary(name, feature, parent):
 				return extract
 			except Exception:
 				return "No wikipedia entry was found"
+			
+'''
+<style>
+p {width: 300px;}
+</style>
+<p>
+[% wikipediaSummary(“wikipedia”) %]
+</p>
+'''
