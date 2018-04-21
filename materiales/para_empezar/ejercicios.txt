@@ -1,0 +1,5 @@
+Crear capa vectorial aleatoria
+Crear una capa en memoria
+Copiar contenido de una capa vectorial a otra capa en memoria
+Copiar ciertas entidades de una capa a otra
+Editar una capa
