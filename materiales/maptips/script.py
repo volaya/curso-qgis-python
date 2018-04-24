@@ -1,5 +1,7 @@
 import urllib
 import json
+from qgis.core import *
+from qgis.gui import *
 
 @qgsfunction(args="auto", group="Custom")
 def wikipediaSummary(name, feature, parent):
