@@ -72,7 +72,6 @@ class RandomPointsAlgorithm(QgsProcessingAlgorithm):
             f.setGeometry(QgsGeometry.fromPointXY(QgsPointXY(
                 random.uniform(extent.xMinimum(), extent.xMaximum()),
                 random.uniform(extent.yMinimum(), extent.yMaximum()))))
-            f.setGeometry(f.geometry())
             f.setAttributes([i])
             sink.addFeature(f, QgsFeatureSink.FastInsert)
  
