@@ -1,28 +1,29 @@
-from qgis.PyQt.QtGui import *
+
+from qgis.PyQt.QtWidgets import QMessageBox, QPushButton, QLineEdit
 from qgis.PyQt.QtCore import *
 import urllib
- 
-def formOpen(dialog,layerid,featureid):
-	buttonBox = dialog.findChild(QDialogButtonBox,"buttonBox")
+
+def my_form_open(dialog, layer, feature):
+	button = dialog.findChild(QPushButton,"btnValidate")
 
 	def validate(): 
 		wikipediaField = dialog.findChild(QLineEdit,"wikipedia")
 		value = wikipediaField.text()
-		print value
-		if not value:
-			wikipediaField.setStyleSheet("QLineEdit{background: yellow}")
-		else:
+		if value:			
 			url = "https://en.wikipedia.org/wiki/" + value
-			response = urllib.urlopen(url).getcode()
-			print response
-			if str(response) == "404":
-				wikipediaField.setStyleSheet("QLineEdit{background: yellow}")
+			try:
+				urllib.request.urlopen(url)
+				QMessageBox.information(dialog, "Validar", "La entrada de wikipedia especificada es válida")
+			except urllib.error.HTTPError:
+				QMessageBox.warning(dialog, "Validar", "No existe la entrada de wikipedia especificada")				
+
+	def findWidget(w, name):
+		for sub in w.children():
+			if sub.objectName() == name:
+				return sub
 			else:
-				dialog.accept()
-
-	buttonBox.accepted.disconnect(dialog.accept)
-	buttonBox.accepted.connect(validate)
-	buttonBox.rejected.connect(dialog.reject)
- 
-
-
+				ret = findWidget(sub, name)
+				if ret is not None:
+					return ret
+	btn = findWidget(dialog, "btnValidate")
+	btn.clicked.connect(validate)
