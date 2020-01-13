@@ -2,7 +2,7 @@ from qgis.core import *
 from qgis.gui import *
 
 @qgsfunction(args="auto", group="Custom", usesgeometry=True)
-def hemisphere(geom):
+def hemisphere(geom, feature, parent):
 	box = geom.boundingBox()
 	if box.yMinimum() > 0 and box.yMaximum() > 0:
 		return "N"
@@ -11,4 +11,4 @@ def hemisphere(geom):
 	else:
 		return "B"
 
-## usar expresión para color
+## usar expresiÃ³n para color
